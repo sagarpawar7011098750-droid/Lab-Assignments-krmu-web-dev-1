@@ -1,0 +1,96 @@
+/* General */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header{
+    background-color: #004aad;
+    color: white;
+    text-align: center;
+    position: sticky;
+    padding: 20px;
+    top: 0;
+}
+
+/* Nav bar */
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    font-weight: 600;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+/* Section */
+section{
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Table */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th{background-color: #004aad;
+color: white;}
+
+th,td{
+    border: 1px solid white;
+    padding: 10px;
+    text-align:center
+}
+
+#About{text-align: center;}
+#Projects{text-align: center;}
+
+
+/* 
+Footer */
+footer{text-align: center;
+padding: 25px;
+background-color: whitesmoke;}
+
+/* Button */
+button{
+    background-color: burlywood;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover{background-color: rgb(152, 83, 215);}
+
+/* back_to_top */
+
+.back_to_top{
+    display: inline-block;
+    margin-top: 10px;
+    color: violet;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #fff;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 8px 12px;
+    font-weight: 600;
+}
+
+.back_to_top:hover{
+    background-color: aqua;
+    color: #fff;
+}
